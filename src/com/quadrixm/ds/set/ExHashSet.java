@@ -17,6 +17,8 @@ public class ExHashSet {
         set.add(new Integer(3));
         set.add(new Integer(4));
 
+        System.out.println(set);
+
         // Printing set data
         Iterator itr = set.iterator();
         System.out.println(itr.next());
