@@ -1,5 +1,6 @@
 package com.quadrixm.ds.legacy;
 
+import java.util.Iterator;
 import java.util.Stack;
 
 
@@ -21,6 +22,18 @@ public class ExStack {
         System.out.println(st.pop());
         System.out.println(st.pop());
         System.out.println(st.pop());
+
+        // You can use iterator on stack
+        st.add(new Integer(5));
+        System.out.println(st.capacity());
+        st.push(new Integer(4));
+        Iterator itr = st.iterator();
+        System.out.println(itr.next());
+
+
+        // You can use all vector function as well, since it extends vector
+        st.add(new Integer(5));
+        System.out.println(st.capacity());
     }
 
 

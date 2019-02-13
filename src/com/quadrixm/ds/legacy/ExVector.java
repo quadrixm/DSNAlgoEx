@@ -1,5 +1,6 @@
 package com.quadrixm.ds.legacy;
 
+import java.util.Iterator;
 import java.util.Vector;
 
 /**
@@ -20,6 +21,7 @@ public class ExVector {
         // We could start with any initial capacity. It will keep on increasing.
 
         Vector v = new Vector(3, 2);
+
         System.out.println(v.capacity());
 
         v.add(new Integer(1));
@@ -38,5 +40,9 @@ public class ExVector {
         System.out.println(v.get(10));
 
         System.out.println(v.capacity());
+
+        // Using Iterator
+        Iterator itr = v.iterator();
+        System.out.println(itr.next());
     }
 }
