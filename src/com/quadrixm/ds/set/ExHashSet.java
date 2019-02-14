@@ -7,6 +7,7 @@ import java.util.Iterator;
  * HashSet
  * It implements Set Interface (Set store unique data).
  * It uses hash table to store its data.
+ * Inside HashSet are stored as HashMap with automated generated unique keys
  */
 public class ExHashSet {
     public static void main(String [] args) {
