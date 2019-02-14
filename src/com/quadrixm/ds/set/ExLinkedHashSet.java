@@ -4,6 +4,8 @@ import java.util.LinkedHashSet;
 
 /**
  * LinkedHashSet
+ * It extends HashSet but doesn't define any function of own
+ * It maintain the insertion order like linked list (i.e. ).
  *
  */
 public class ExLinkedHashSet {
